@@ -79,3 +79,18 @@ label {
         flex: 2 45%;
     }
 }
+
+@media (max-width:480px) {
+    h1 {
+        margin-top: 20px;
+    }
+
+    .product-filter {
+        flex-direction: column;
+    }
+
+    .sort {
+        display: inline-block;
+        align-self: flex-start;
+    }
+}
